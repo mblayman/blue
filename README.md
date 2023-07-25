@@ -11,6 +11,12 @@ The motivation is that all the code formatters that I can find for Lua either:
   of "good enough" code formatting style like Black or gofmt).
 2. Require compiling Rust or C++.
 
+These are other formatters that I have encountered that seem to fall into the previous two items.
+
+* StyLua (requires Rust toolchain, but passes item 1)
+* EmmyLuaCodeStyle (requires C++ toolchain, too many knobs, default formater of Neovim Lua language server)
+* LuaFormatter (requires C++ toolchain, too many knobs)
+
 By making a pure Lua implementation,
 I'd be acknowledging a sacrifice of speed
 for the sake of portability
@@ -21,6 +27,14 @@ but would like to learn.
 This will largely be a research project.
 I don't have an expectation that this will be a long running project
 (though I wouldn't be opposed to that if it works out).
+
+## Setup
+
+```
+make deps
+```
+
+## Research
 
 Here are resources that I've been reading on this subject:
 
@@ -41,3 +55,4 @@ Things to research:
 * https://github.com/Azganoth/tree-sitter-lua (Lua grammar for tree-sitter)
 * https://github.com/rust-bakery/nom (Rust parser)
 * https://github.com/zesterer/chumsky (Rust parser)
+* https://github.com/kampfkarren/full-moon (Rust-based parser of Lua, powers StyLua)
