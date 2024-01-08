@@ -47,6 +47,8 @@ Here are resources that I've been reading on this subject:
 * [Topiary GitHub](https://github.com/tweag/topiary) -
   This pages lists topiary's rules. This could be useful to review as a source
   of formatting ideas later.
+* [A prettier printer](https://homepages.inf.ed.ac.uk/wadler/papers/prettier/prettier.pdf) - this a dense theory-based read. I might come back to this, but I found it hard to get into a real understanding.
+* [Practical Algorithms for Incremental Software Development Environments](https://www2.eecs.berkeley.edu/Pubs/TechRpts/1997/CSD-97-946.pdf) - stopped on page number 17 (31 of 148)
 
 Things to research:
 
@@ -56,3 +58,5 @@ Things to research:
 * https://github.com/rust-bakery/nom (Rust parser)
 * https://github.com/zesterer/chumsky (Rust parser)
 * https://github.com/kampfkarren/full-moon (Rust-based parser of Lua, powers StyLua)
+* [Building an AST for Lua in Haskell](https://vitez.me/lua-ast)
+* [Black Developer Reference docs](https://black.readthedocs.io/en/stable/contributing/reference/reference_classes.html)
